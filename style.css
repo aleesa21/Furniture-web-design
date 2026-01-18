@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:poppins;
+}
+.nav-bar{
+    height:70px;
+    padding:0px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* border:1px solid black; */
+}
+.nav-mid{
+    width:400px;
+    display:flex;
+    justify-content:space-between;
+    /* border:1px solid black; */
+}
+.nav-right{
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+    /* border:1px solid black; */
+}
+.sec-1-main{
+    position:relative;
+    height:calc(100vh - 70px);
+    border:1px solid red;
+}
+#bg-img{
+    height:100%;
+    width:100%;
+}
+.sec1-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#FFF3E3;
+    position:absolute;
+    bottom:80px;
+    right:90px;
+    z-index:1;
+    height:360px;
+    width:570px;
+    /* border:1px solid rgb(26, 25, 25); */
+
+}
+.s1-card-text{
+    width:500px;
+    height:310px;
+    /* border:1px solid rgb(233, 14, 14); */
+
+}
+.s1-card-text h1{
+    font-size:52px;
+    color:#B88E2F;
+}
+#buynow-btn{
+    margin-top:17px;
+    width:190px;
+    height:60px;
+    /* padding:9px 18px; */
+    background:#B88E2F;
+    border:none;
+    color:white;
+    font-size:20px;
+}
