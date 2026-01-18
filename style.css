@@ -57,6 +57,10 @@
     font-size:52px;
     color:#B88E2F;
 }
+.font-bold{
+    font-weight:bold;
+
+}
 #buynow-btn{
     margin-top:17px;
     width:190px;
@@ -66,4 +70,37 @@
     border:none;
     color:white;
     font-size:20px;
+}
+.section-2{
+    margin:20px 0px;
+    height:585px;
+    border:1px solid rgb(238, 5, 5);
+    padding:0 80px;
+
+}
+.section-2-main{
+    text-align:center;
+    width:1183px;
+    height:585px;
+    /* border:1px solid black; */
+}
+.cards-container{
+     height:500px;
+     /* border:1px solid purple; */
+     margin-top:25px;
+     display:flex;
+     justify-content:space-between;
+
+}
+.s2-card{
+    margin-bottom:15px;
+    height:440px;
+    width:340px;
+    /* border:1px solid rgb(93, 3, 239); */
+
+}
+.s2-card-text{
+    height:500px;
+    width:340px;
+    /* border:1px solid yellow; */
 }
